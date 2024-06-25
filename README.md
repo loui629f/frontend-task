@@ -14,4 +14,6 @@ Hvis du har tid, er du også velkommen til at style dine komponenter, men det er
 
 Det forventes, at opgaven vil tage en times tid.
 
+Løsningen skal oprettes som et Pull-Request på dette github repository.
+
 Held og lykke :D

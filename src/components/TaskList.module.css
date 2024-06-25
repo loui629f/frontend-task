@@ -1,0 +1,15 @@
+.taskList {
+  list-style-type: none;
+  align-self: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2,300px);
+  padding: 0;
+}
+
+.task {
+  padding: 16px 30px;
+  margin: 0px 20px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}

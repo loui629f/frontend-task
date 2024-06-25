@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
-import { Task } from './types';
+import React, { useState } from "react";
+import { Task } from "./types";
+import TaskList from "./components/TaskList";
+import NewTaskForm from "./components/NewTaskForm";
+import styles from './App.module.css'
 
 //Skal implementeres
-//import TaskList from './components/TaskList'; 
+//import TaskList from './components/TaskList';
 
 //Skal Implementeres
 //import NewTaskForm from './components/newTaskForm';
 
 const initialTasks: Task[] = [
-  { id: 1, title: 'Learn React' },
-  { id: 2, title: 'Build a project' },
+  { id: 1, title: "Learn React" },
+  { id: 2, title: "Build a project" },
 ];
 
 function App() {
@@ -21,14 +24,10 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       <h1>Task Manager</h1>
-      {/* Skal implementeres */}
-      {/* <NewTaskForm addTask={addTask} />  */}
-
-      {/* Skal implementeres */}
-      {/* <TaskList tasks={tasks} /> */}
-
+      <TaskList tasks={tasks}></TaskList>
+      <NewTaskForm createTask={addTask}></NewTaskForm>
     </div>
   );
 }

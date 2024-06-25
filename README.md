@@ -1,19 +1,21 @@
 Opgavebeskrivelse – Task Manager
 
-Opgaven er at færdiggøre en simpel task manager i React. Du har fået udleveret en simpel React-applikation, som mangler følgende komponenter:
+Opgaven er at færdiggøre en simpel task manager i React. Du har fået udleveret en simpel React-applikation, opgavebeskrivelsen er som følger:
 
-1. Implementering af TaskList – Som viser en liste af oprettede tasks.
+1. Opret en ny branch og kald den 'solution'
+
+2. Implementering af TaskList – et component som viser en liste af oprettede/eksisterende tasks.
     - Modtag en liste af tasks 'tasks' som en prop og vis listen.
 
-2. Implementering af NewTaskForm – Som er en form, hvor man kan oprette nye tasks.
+3. Implementering af NewTaskForm – Et component som skal bestå af form, hvor man kan oprette nye tasks.
     - Modtag funktionen addTask som en prop og brug den til at tilføje nye tasks.
     - Opret formularen med inputfelt til titlen for task-objektet.
     - Ved submit på formularen, kald addTask med opgavens titel og nulstil inputfeltet.
 
 Hvis du har tid, er du også velkommen til at style dine komponenter, men det er ikke et krav!
 
-Det forventes, at opgaven vil tage en times tid.
+Opret et Pull-Request til master fra din.
 
-Løsningen skal oprettes som et Pull-Request på dette github repository.
+Det forventes, at opgaven vil tage en times tid.
 
 Held og lykke :D
